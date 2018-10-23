@@ -1,0 +1,93 @@
+.BMap_cpyCtrl {
+	display: none;
+}
+.anchorBL {
+	display: none;
+}
+body, html,#allmap {
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-color: rgb(89,154,177);
+}
+#header{
+	width:100%;
+	background-color: rgb(89,154,177);
+	font-size:100%;
+	font-family: "fant name", Verdana, Geneva, Arical, sans-serif;
+	margin-top:-2%;
+}
+#allmap{
+	height:90%;
+	width:100%;
+	margin-top:0%;
+}
+.list-image,.stylelist{
+	width:4%;
+	height:4%;
+}
+#toplogo{
+	width:25%;
+	height:25%;
+	padding-right:10%;
+}
+li{
+	list-style-type:none; 
+	display:inline;
+	margin:0;
+	padding:0;
+}
+.button-image{
+	width:100%;
+	height:100%;
+	margin-top:30%;
+	margin-left:-5%;
+	color:white;
+	font-size:80%;
+	background-color:blue;
+}
+select{
+	width:126%;
+	height:378%;
+	border: none;
+	outline: none;
+	background-color: transparent;
+ 	-webkit-appearance: initial;
+	font-size:80%;
+	color:white;
+}
+.info_list {
+	position:absolute;
+	bottom:49%;
+	display:none;	
+	z-index:3;
+	margin:0 auto;
+	color:white;
+	background: rgb(89,154,177);
+	border-radius:15px;
+	line-height:100%;
+	width:10%;
+	height:35%;
+}
+.info-list-title {
+	float:left; 
+	width:80%; 
+	height:50%; 
+	text-align:center; 
+	font-size:100%;  
+	line-height:10%; 
+	padding-left:5%;
+	padding-top:10%;
+}
+.info-list-close{
+	float:right; 
+	width:10%; 
+	height:10%; 
+	margin-top:6%;
+	margin-right:5%;
+}
+.info-list-content{
+	width:75%;
+	height:20%;
+}
