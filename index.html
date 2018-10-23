@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<link href="CSS/main.css" rel="stylesheet" type="text/css" media="screen and (max-device-width: 1920px)">
+		<link href="CSS/main0.css" rel="stylesheet" type="text/css" media="screen and (max-device-width: 1366px)">		
+		<embed src="夏天的秘密.mp3" hidden="true" autostart="true" loop="true">
+		<title>校园地图</title>
+	</head>
+	<body>
+		<div id="header">
+			<ul>
+				<li><img class="list-image" src="images/toplogo.png" id="toplogo"></li>
+				<li><img class="list-image" src="images/t1.png" onclick="showInfoList(this, 'xueyuan', '学院设置')"></li>
+				<li><img class="list-image" src="images/t2.png" onclick="showInfoList(this, 'chanxue', '产学研究')"></li>
+				<li><img class="list-image" src="images/t4.png" onclick="showInfoList(this, 'gongyu' , '学生公寓')"></li>
+				<li><img class="list-image" src="images/t5.png" onclick="showInfoList(this, 'jiashu' , '家属楼宇')"></li>
+				<li><img class="list-image" src="images/t6.png" onclick="showInfoList(this, 'qita'   , '其它建筑')"></li>
+				<li><img class="list-image" src="images/t7.png" onclick="showInfoList(this, 'road'   , '路线导航')"></li>
+				<li><img class="list-image" src="images/t8.png" onclick="showInfoList(this, 'theme'  , '选择主题')"></li>
+				<li><img class="list-image" src="images/pm.png" onclick="setMapTypeNormal()"></li>
+				<li><img class="list-image" src="images/wx.png" onclick="setMapTypeHybrid()"></li>
+				<li><img class="list-image" src="images/hp.png" onclick="windowsOpenAHtml()"></li>
+			</ul>
+		</div>
+		<div id="allmap"></div>
+		<!---------------------------------分-------------------割---------------------线------------------------------------------>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=mFWoCt6MpcsF9uhfig1WH3KHWDhRQnun"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/library/AreaRestriction/1.2/src/AreaRestriction_min.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/library/DistanceTool/1.2/src/DistanceTool_min.js"></script>
+		<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+		<script type="text/javascript" src="JavaScript/styleJson.js"></script>
+		<script type="text/javascript" src="JavaScript/Build.js"></script>
+		<script type="text/javascript" src="JavaScript/Content.js"></script>		
+		<script type="text/javascript" src="JavaScript/map.js"></script>
+		<script type="text/javascript" src="JavaScript/Control.js"></script>
+		<script type="text/javascript" src="JavaScript/Mark.js"></script>
+		<script type="text/javascript" src="JavaScript/Click.js"></script>
+		<script type="text/javascript" src="JavaScript/Block.js"></script>		
+		<script type="text/javascript" src="JavaScript/Mouse.js"></script>
+		<script type="text/javascript" src="JavaScript/Setdiv.js"></script>
+		<script type="text/javascript" src="JavaScript/locate.js"></script>
+	</body>
+</html>
