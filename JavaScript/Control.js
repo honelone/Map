@@ -49,10 +49,10 @@ function openUserInfoDiv(){
     newDiv.id = "r-result";
     newDiv.style.position = "absolute";
     newDiv.style.zIndex = "99";  
-    newDiv.style.width ="200px";
-	newDiv.style.height ="500px";
-    newDiv.style.top = "90px";
-    newDiv.style.right = "50px";
+    newDiv.style.width ="15%";
+	newDiv.style.height ="50%";
+    newDiv.style.top = "15%";
+    newDiv.style.right = "2%";
     newDiv.style.background = "#ffffff";
     newDiv.style.opacity = "0.8";
     newDiv.style.display="none";          //隐藏
