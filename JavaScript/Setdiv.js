@@ -66,6 +66,7 @@ div301.setAttribute("class","info_list");
 div301.appendChild(div302);
 div301.appendChild(div304);
 document.body.appendChild(div301);
+/*
 //------------------分-----------割---------线------------------	
 //生成家属楼宇弹窗4
 var div401 = document.createElement("div");
@@ -88,7 +89,7 @@ div401.setAttribute("class","info_list");
 	div404.appendChild(select4);
 div401.appendChild(div402);
 div401.appendChild(div404);
-document.body.appendChild(div401);
+document.body.appendChild(div401);*/
 //------------------分-----------割---------线------------------	
 //生成其它建筑弹窗5
 var div501 = document.createElement("div");
