@@ -48,23 +48,23 @@ var dock3 = [
 			  {name: '学生宿舍22栋', 		point: dock3_point6},
 			];
 //--------------分-----------------割----------------------线----------------5
-var dock5_point1 = new BMap.Point(104.194499,30.834997);
-var dock5_point2 = new BMap.Point(104.194576,30.836280);
-var dock5_point3 = new BMap.Point(104.195546,30.835927);
-var dock5_point4 = new BMap.Point(104.191872,30.829904);
-var dock5_point5 = new BMap.Point(104.189577,30.828749);
-var dock5_point6 = new BMap.Point(104.189011,30.830710);
-var dock5_point7 = new BMap.Point(104.190933,30.830803);
+var dock5_point1 = new BMap.Point(104.191872,30.829904);
+var dock5_point2 = new BMap.Point(104.189577,30.828749);
+var dock5_point3 = new BMap.Point(104.189011,30.830710);
+var dock5_point4 = new BMap.Point(104.190933,30.830803);
+var dock5_point5 = new BMap.Point(104.194499,30.834997);
+var dock5_point6 = new BMap.Point(104.191176,30.831849);
+var dock5_point7 = new BMap.Point(104.195546,30.835927);
 var dock5_point8 = new BMap.Point(104.192582,30.832043);
-var dock5_point9 = new BMap.Point(104.191176,30.831849);
+var dock5_point9 = new BMap.Point(104.194576,30.836280);
 var dock5 = [			  
-			  {name: '体育馆', 			point: dock5_point4},
-			  {name: '图书馆', 			point: dock5_point5},
-			  {name: '校医院', 			point: dock5_point6},
-			  {name: '一期篮球场', 		point: dock5_point2},
-			  {name: '二期篮球场', 		point: dock5_point1},
-			  {name: '一期足球场', 		point: dock5_point2},
-			  {name: '二期足球场', 		point: dock5_point3},
-			  {name: '一期学生食堂', 	point: dock5_point2},
-			  {name: '二期学生食堂', 	point: dock5_point2},
+			  {name: '体育馆', 			point: dock5_point1},
+			  {name: '图书馆', 			point: dock5_point2},
+			  {name: '校医院', 			point: dock5_point3},
+			  {name: '一期篮球场', 		point: dock5_point4},
+			  {name: '二期篮球场', 		point: dock5_point5},
+			  {name: '一期足球场', 		point: dock5_point6},
+			  {name: '二期足球场', 		point: dock5_point7},
+			  {name: '一期学生食堂', 	point: dock5_point8},
+			  {name: '二期学生食堂', 	point: dock5_point9},
 			];
