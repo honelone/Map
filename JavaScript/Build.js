@@ -24,10 +24,10 @@ var dock1_point3 = new BMap.Point(104.193907,30.840349);
 var dock1_point4 = new BMap.Point(104.192712,30.828694);
 var dock1_point5 = new BMap.Point(104.185889,30.828186);
 var dock1 = [
-			  {name: '本科综合实验楼', 						point: dock1_point1},
-			  {name: '工业危废处置与资源化利用研究院', 		point: dock1_point2},
-			  {name: '西南石油大学校内实训基地', 			point: dock1_point3},
-			  {name: '四川石油与天然气发展研究中心', 		point: dock1_point4},
+			  {name: '本科综合实验楼', 			point: dock1_point1},
+			  {name: '工业危废处置与资源化利用研究院', 	  point: dock1_point2},
+			  {name: '西南石油大学校内实训基地', 	   point: dock1_point3},
+			  {name: '四川石油与天然气发展研究中心', 	  point: dock1_point4},
 			  {name: '油气藏地质及开发工程国家重点实验室', 	point: dock1_point5}
 			];
 //--------------分-----------------割----------------------线----------------3
