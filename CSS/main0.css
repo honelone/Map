@@ -59,7 +59,7 @@ select{
 }
 .info_list {
 	position:absolute;
-	bottom:49%;
+	bottom:50%;
 	display:none;	
 	z-index:3;
 	margin:0 auto;
