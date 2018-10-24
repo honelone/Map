@@ -24,24 +24,28 @@ var dock1_point3 = new BMap.Point(104.193907,30.840349);
 var dock1_point4 = new BMap.Point(104.192712,30.828694);
 var dock1_point5 = new BMap.Point(104.185889,30.828186);
 var dock1 = [
-			  {name: '本科综合实验楼', 			point: dock1_point1},
-			  {name: '工业危废处置与资源化利用研究院', 	  point: dock1_point2},
-			  {name: '西南石油大学校内实训基地', 	   point: dock1_point3},
-			  {name: '四川石油与天然气发展研究中心', 	  point: dock1_point4},
+			  {name: '本科综合实验楼', 						point: dock1_point1},
+			  {name: '工业危废处置与资源化利用研究院', 		point: dock1_point2},
+			  {name: '西南石油大学校内实训基地', 			point: dock1_point3},
+			  {name: '四川石油与天然气发展研究中心', 		point: dock1_point4},
 			  {name: '油气藏地质及开发工程国家重点实验室', 	point: dock1_point5}
 			];
 //--------------分-----------------割----------------------线----------------3
-var dock3_point1 = new BMap.Point(104.191778,30.838791);
-var dock3_point2 = new BMap.Point(104.189613,30.838098);
-var dock3_point3 = new BMap.Point(104.193907,30.840349);
-var dock3_point4 = new BMap.Point(104.192712,30.828694);
-var dock3_point5 = new BMap.Point(104.185889,30.828186);
+var dock3_point1 = new BMap.Point(104.192987,30.829677);
+var dock3_point2 = new BMap.Point(104.192929,30.830755);
+var dock3_point3 = new BMap.Point(104.193733,30.831984);
+var dock3_point4 = new BMap.Point(104.194272,30.833170);
+var dock3_point5 = new BMap.Point(104.193747,30.835426);
+var dock3_point6 = new BMap.Point(104.193639,30.836705);
+var dock3_point7 = new BMap.Point(104.194694,30.837813);
 var dock3 = [
-			  {name: '未规划', 		point: dock3_point1},
-			  {name: '未规划', 		point: dock3_point2},
-			  {name: '未规划', 		point: dock3_point3},
-			  {name: '未规划', 		point: dock3_point4},
-			  {name: '未规划', 		point: dock3_point5}
+			  {name: '学生宿舍1-4栋', 		point: dock3_point1},
+			  {name: '学生宿舍5-10栋', 		point: dock3_point2},
+			  {name: '学生宿舍11-16栋', 	point: dock3_point3},
+			  {name: '学生宿舍17-19栋', 	point: dock3_point4},
+			  {name: '学生宿舍20栋', 		point: dock3_point5},
+			  {name: '学生宿舍21栋', 		point: dock3_point7},
+			  {name: '学生宿舍22栋', 		point: dock3_point6},
 			];
 //--------------分-----------------割----------------------线----------------5
 var dock5_point1 = new BMap.Point(104.194499,30.834997);
@@ -53,7 +57,7 @@ var dock5_point6 = new BMap.Point(104.189011,30.830710);
 var dock5_point7 = new BMap.Point(104.190933,30.830803);
 var dock5_point8 = new BMap.Point(104.192582,30.832043);
 var dock5_point9 = new BMap.Point(104.191176,30.831849);
-var dock5 = [
+var dock5 = [			  
 			  {name: '体育馆', 			point: dock5_point4},
 			  {name: '图书馆', 			point: dock5_point5},
 			  {name: '校医院', 			point: dock5_point6},
