@@ -82,6 +82,8 @@ for(var key in mapstyles){
 	var item = new  Option(style.title,key);
 	sel7.options.add(item);
 }
+changeMapStyle('googlelite');
+set.value = 'googlelite';
 //------------------分-----------割---------线------------------
 //添加主题改变事件
 function changeMapStyle(style){
