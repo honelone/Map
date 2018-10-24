@@ -45,7 +45,8 @@ for(var key in dock3){
 }
 //添加改变事件
 function changePosition3(k){
-	var marker_poi = new BMap.Marker(dock3[k].point);  // 创建标注
+	var icon_poi = new BMap.Icon("images/building.png",new BMap.Size(50,50));
+	var marker_poi = new BMap.Marker(dock3[k].point,{icon:icon_poi});  // 创建标注
 	map.addOverlay(marker_poi); // 将标注添加到地图中
 	marker_poi.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
 	map.centerAndZoom(dock3[k].point,22);
@@ -63,7 +64,8 @@ for(var key in dock5){
 }
 //添加改变事件
 function changePosition5(k){
-	var marker_poi = new BMap.Marker(dock5[k].point);  // 创建标注
+	var icon_poi = new BMap.Icon("images/building.png",new BMap.Size(50,50));
+	var marker_poi = new BMap.Marker(dock5[k].point,{icon:icon_poi});  // 创建标注
 	map.addOverlay(marker_poi); // 将标注添加到地图中
 	marker_poi.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
 	map.centerAndZoom(dock5[k].point,22);
