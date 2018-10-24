@@ -36,14 +36,6 @@ function changePosition1(k){
 		this.openInfoWindow(infoWindow);
 	});
 }
-/*//------------------分-----------割---------线------------------
-//获取教学研究列表
-var sel2 = document.getElementById('stylelist2');
-for(var key in mapstyles){
-	var style = mapstyles[key];
-	var item = new  Option(style.title,key);
-	sel2.options.add(item);
-}*/
 //------------------分-----------割---------线------------------
 //获取学生公寓列表dock3
 var sel3 = document.getElementById('stylelist3');
@@ -58,24 +50,6 @@ function changePosition3(k){
 	marker_poi.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
 	map.centerAndZoom(dock3[k].point,22);
 	var infoWindow = new BMap.InfoWindow(dock3_sContent[k]);//创建信息窗口对象
-	marker_poi.addEventListener("click",function(){
-		this.openInfoWindow(infoWindow);
-	});
-}
-//------------------分-----------割---------线------------------
-//获取家属楼宇列表dock4
-var sel4 = document.getElementById('stylelist4');
-for(var key in dock4){
-	var item = new Option(dock4[key].name,key);
-	sel4.options.add(item);
-}
-//添加改变事件
-function changePosition4(k){
-	var marker_poi = new BMap.Marker(dock4[k].point);  // 创建标注
-	map.addOverlay(marker_poi); // 将标注添加到地图中
-	marker_poi.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
-	map.centerAndZoom(dock4[k].point,22);
-	var infoWindow = new BMap.InfoWindow(dock4_sContent[k]);//创建信息窗口对象
 	marker_poi.addEventListener("click",function(){
 		this.openInfoWindow(infoWindow);
 	});
