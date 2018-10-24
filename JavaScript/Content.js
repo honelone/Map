@@ -68,19 +68,43 @@ var dock1_sContent5 =
 	"</div>";
 var dock1_sContent = [dock1_sContent1,dock1_sContent2,dock1_sContent3,dock1_sContent4,dock1_sContent5];
 //--------------------------分---------------------------------割--------------------------------------线---------------------------------------------
-var dock3_sContent =
-	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>本科综合实验楼</h4>" + 
-	"<img style='float:right;margin:4px' src='images/bkszhsyl.png' width='104' height='104' title='本科综合实验楼'/>" + 
-	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:em'>地址：<br>明辨楼D、E区</p>" + 
+var dock3_sContent1 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>学生宿舍1-4栋</h4>" + 
+	"<img style='float:right;margin:4px' src='images/1-4栋.png' width='139' height='139' title='1-4栋'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:0em'>左下:一栋<br>左上:二栋<br>右下:三栋<br>右上:四栋<br>均为女生宿舍,男生止步</p>" + 
 	"</div>";
-var dock3_sContent = [dock3_sContent];
-//--------------------------分---------------------------------割--------------------------------------线---------------------------------------------
-var dock4_sContent =
-	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>本科综合实验楼</h4>" + 
-	"<img style='float:right;margin:4px' src='images/bkszhsyl.png' width='104' height='104' title='本科综合实验楼'/>" + 
-	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:em'>地址：<br>明辨楼D、E区</p>" + 
+var dock3_sContent2 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>学生宿舍5-10栋</h4>" + 
+	"<img style='float:right;margin:4px' src='images/5-10栋.png' width='139' height='139' title='5-10栋'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:0em'>右下:五栋<br>右中:六栋<br>右上:七栋<br>左下:八栋<br>左中:九栋<br>左上:十栋<br>左边均为女生宿舍<br>右边为男生宿舍</p>" + 
 	"</div>";
-var dock4_sContent = [dock4_sContent];
+var dock3_sContent3 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>学生宿舍11-16栋</h4>" + 
+	"<img style='float:right;margin:4px' src='images/11-16栋.png' width='139' height='139' title='11-16栋'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:0em'>左下:十一栋<br>左中:十二栋<br>左上:十三栋<br>右下:十四栋<br>右中:十五栋<br>右上:十六栋<br>均为男生宿舍</p>" + 
+	"</div>";
+var dock3_sContent4 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>学生宿舍17-19栋</h4>" + 
+	"<img style='float:right;margin:4px' src='images/17-19栋.png' width='139' height='139' title='17-19栋'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:0em'>下:十七栋<br>中:十八栋<br>上:十九栋<br>均为男生宿舍</p>" + 
+	"</div>";
+var dock3_sContent5 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>西南石油大学学生公寓-20幢</h4>" + 
+	"<img style='float:right;margin:4px' src='images/宿舍20.jpg' width='104' height='104' title='西南石油大学学生公寓-20幢'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:em'>地址：<br>四川省成都市新都区西南石油大学学生公寓20幢</p>" + 
+	"</div>";
+var dock3_sContent6 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>西南石油大学学生公寓-22幢</h4>" + 
+	"<img style='float:right;margin:4px' src='images/宿舍22.jpg' width='104' height='104' title='西南石油大学学生公寓-22幢'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:em'>地址：<br>桂湖路与飞翔路交叉口东北100米</p>" + 
+	"</div>";
+var dock3_sContent7 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>西南石油大学学生公寓-21幢</h4>" + 
+	"<img style='float:right;margin:4px' src='images/宿舍21.jpg' width='104' height='104' title='西南石油大学学生公寓-21幢'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:em'>地址：<br>中环路与飞翔路交叉口东南150米</p>" + 
+	"</div>";
+var dock3_sContent = [dock3_sContent1,dock3_sContent2,dock3_sContent3,dock3_sContent4,dock3_sContent5,dock3_sContent6,dock3_sContent7];
+
 //--------------------------分---------------------------------割--------------------------------------线---------------------------------------------
 var dock5_sContent1 =
 	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>二期篮球场</h4>" + 
