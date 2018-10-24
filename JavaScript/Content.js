@@ -83,32 +83,44 @@ var dock4_sContent =
 var dock4_sContent = [dock4_sContent];
 //--------------------------分---------------------------------割--------------------------------------线---------------------------------------------
 var dock5_sContent1 =
-	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>篮球场</h4>" + 
-	"<img style='float:right;margin:4px' src='images/lanqiuchang.png' width='104' height='139' title='篮球场'/>" + 
-	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>本校区有一二期两个大型室外篮球场</p>" + 
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>二期篮球场</h4>" + 
+	"<img style='float:right;margin:4px' src='images/lanqiuchang.png' width='104' height='139' title='二期篮球场'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>位于学生公寓对面的室外篮球场</p>" + 
 	"</div>";
 var dock5_sContent2 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>二期学生食堂</h4>" + 
+	"<img style='float:right;margin:4px' src='images/shitang.png' width='100%' height='139' title='二期学生食堂'/>" + 
+	"</div>";
+var dock5_sContent3 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>二期足球场</h4>" + 
+	"<img style='float:right;margin:4px' src='images/zuqiuchang.png' width='100%' height='139' title='二期足球场'/>" + 
+	"</div>";
+var dock5_sContent4 =
 	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>体育馆</h4>" + 
 	"<img style='float:right;margin:4px' src='images/tiyuguan.png' width='100%' height='139' title='体育馆'/>" + 
 	"</div>";
-var dock5_sContent3 =
+var dock5_sContent5 =
 	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>图书馆</h4>" + 
 	"<img style='float:right;margin:4px' src='images/tushuguan.jpg' width='100%' height='139' title='图书馆'/>" + 
 	"</div>";
-var dock5_sContent4 =
+var dock5_sContent6 =
 	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>校医院</h4>" + 
 	"<img style='float:right;margin:4px' src='images/xiaoyiyuan.jpg' width='104' height='139' title='校医院'/>" + 
 	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>急诊科、内科、外科、口腔科、妇科</p>"+
 	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>医学视光中心、耳鼻咽喉科、康复理疗科、中医科</p>"+
 	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>检验科、放射科、B超、预防保健科、体检中心等</p>" + 
 	"</div>";
-var dock5_sContent5 =
-	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>学生食堂</h4>" + 
-	"<img style='float:right;margin:4px' src='images/shitang.jpg' width='100%' height='139' title='学生食堂'/>" + 
+var dock5_sContent7 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>一期篮球场</h4>" + 
+	"<img style='float:right;margin:4px' src='images/lanqiuchang.png' width='104' height='139' title='一期篮球场'/>" + 
+	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>位于体育馆外的室外篮球场</p>" + 
 	"</div>";
-var dock5_sContent6 =
-	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>足球场</h4>" + 
-	"<img style='float:right;margin:4px' src='images/zuqiuchang.png' width='104' height='139' title='足球场'/>" + 
-	"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>本校区有一二期两个大型室外足球场</p>" + 
+var dock5_sContent8 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>一期学生食堂</h4>" + 
+	"<img style='float:right;margin:4px' src='images/shitang.jpg' width='100%' height='139' title='一期学生食堂'/>" + 
 	"</div>";
-var dock5_sContent = [dock5_sContent1,dock5_sContent2,dock5_sContent3,dock5_sContent4,dock5_sContent5,dock5_sContent6];
+var dock5_sContent9 =
+	"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>一期足球场</h4>" + 
+	"<img style='float:right;margin:4px' src='images/zuqiuchang.png' width='100%' height='139' title='一期足球场'/>" + 
+	"</div>";
+var dock5_sContent = [dock5_sContent1,dock5_sContent2,dock5_sContent3,dock5_sContent4,dock5_sContent5,dock5_sContent6,dock5_sContent7,dock5_sContent8,dock5_sContent9];
