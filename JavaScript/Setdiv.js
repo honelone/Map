@@ -66,30 +66,6 @@ div301.setAttribute("class","info_list");
 div301.appendChild(div302);
 div301.appendChild(div304);
 document.body.appendChild(div301);
-/*
-//------------------分-----------割---------线------------------	
-//生成家属楼宇弹窗4
-var div401 = document.createElement("div");
-div401.setAttribute("id","jiashu");
-div401.setAttribute("class","info_list");
-	var div402 = document.createElement("div");		
-		var div403 = document.createElement("div");
-		div403.setAttribute("class","info-list-title");		
-		var img4 = document.createElement("img");
-		img4.setAttribute("class","info-list-close");
-		img4.src = "images/close.png";		
-	div402.appendChild(div403);
-	div402.appendChild(img4);	
-	var div404 = document.createElement("div");
-	div404.setAttribute("class","info-list-content");
-	var select4 = document.createElement("select");
-		select4.setAttribute("id","stylelist4");
-		select4.setAttribute("onchange","changePosition4(this.value)");
-		select4.setAttribute("multiple","multiple");
-	div404.appendChild(select4);
-div401.appendChild(div402);
-div401.appendChild(div404);
-document.body.appendChild(div401);*/
 //------------------分-----------割---------线------------------	
 //生成其它建筑弹窗5
 var div501 = document.createElement("div");
@@ -190,27 +166,3 @@ div701.setAttribute("class","info_list");
 div701.appendChild(div702);
 div701.appendChild(div704);
 document.body.appendChild(div701);
-/*
-//------------------分-----------割---------线------------------
-//生成教学研究弹窗2
-var div201 = document.createElement("div");
-div201.setAttribute("id","result");
-div201.setAttribute("class","info_list");
-	var div202 = document.createElement("div");		
-		var div203 = document.createElement("div");
-		div203.setAttribute("class","info-list-title");		
-		var img2 = document.createElement("img");
-		img2.setAttribute("class","info-list-close");
-		img2.src = "images/close.png";		
-	div202.appendChild(div203);
-	div202.appendChild(img2);	
-	var div204 = document.createElement("div");
-	div204.setAttribute("class","info-list-content");
-	var select2 = document.createElement("select");
-		select2.setAttribute("id","stylelist2");
-		//select2.setAttribute("onchange","changePosition1(this.value)");
-		select2.setAttribute("multiple","multiple");
-	div204.appendChild(select2);
-div201.appendChild(div202);
-div201.appendChild(div204);
-document.body.appendChild(div201);*/
